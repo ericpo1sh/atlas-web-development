@@ -144,6 +144,7 @@ header {
   height: 300px;
   justify-content: space-around;
   align-items: flex-end;
+  flex-shrink: 0;
 }
 
 .pro_content_container h4 {
@@ -172,4 +173,64 @@ header {
   flex-shrink: 0;
   border-radius: 50%;
   z-index: 2;
+}
+
+.quote_container {
+  width: 1540px;
+  height: 392px;
+  flex-shrink: 0;
+  background-color:#C271FF;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote_img img {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.quote_w_img {
+  width: 943px;
+  height: 160px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote_text_container {
+  flex-shrink: 0;
+  width: 730px;
+  height: 158;
+  margin-top: 0.5rem;
+}
+
+.quote_text_container blockquote {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px; /* 152.727% */ 
+}
+
+.quote_text_container cite {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px; /* 152.727% */
+}
+
+.quote_text_container p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px; /* 152.727% */ 
 }
