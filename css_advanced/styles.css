@@ -42,6 +42,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
 }
 
 .banner {
@@ -142,9 +143,10 @@ header {
   display: flex;
   width: 1540px;
   height: 300px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-end;
   flex-shrink: 0;
+  gap: 8.3rem;
 }
 
 .pro_content_container h4 {
@@ -233,4 +235,127 @@ header {
   font-style: italic;
   font-weight: 400;
   line-height: 33.6px; /* 152.727% */ 
+}
+
+.video_container {
+  width: 76.75rem;
+  height: 28.125rem;
+  flex-shrink: 0;
+  margin: 5.44rem auto 5.44rem auto;
+  text-align: center;
+}
+
+.video_container h2 {
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.video_container span {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.video_content_container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.video_box .thumbnail {
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.video {
+  width: 15.9375rem;
+  height: 20.9375rem;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.video_content_container h5 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+}
+
+.video_content_container p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 171.429% */
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.video_person h6 {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem; /* 192.857% */ 
+}
+
+.video_person {
+  flex-direction: column;
+}
+
+.video_person img {
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.video_person {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+}
+
+.rating_container {
+  width: 14rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.video_box {
+  width: 15.9375rem;
+  height: 9.625rem; 
+  display: flex;
+  align-items: center;
+}
+
+.video_box .play {
+  z-index: 2;
+  position: absolute;
+  margin-left: 6rem;
+  margin-bottom: 1rem;
 }
