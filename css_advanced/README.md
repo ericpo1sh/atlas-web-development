@@ -1,4 +1,8 @@
 # CSS ADVANCED
+
+## How to launch the website:
+https://ericpo1sh.github.io/atlas-web-development/css_advanced/
+
 ### In this project, we are applying CSS to our wireframed html file
 
 ## Learning Objectives
