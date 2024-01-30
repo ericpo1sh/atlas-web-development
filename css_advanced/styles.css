@@ -1,4 +1,4 @@
-* {
+* { 
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -358,4 +358,186 @@ header {
   position: absolute;
   margin-left: 6rem;
   margin-bottom: 1rem;
+}
+
+.membership_container {
+  width: 1540px;
+  height: 502px;
+  flex-shrink: 0;
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.membership_container h2 {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; 
+}
+
+.membership_container span {
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.membership_content_container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.69rem;
+}
+
+.membership {
+  width: 16.0625rem;
+  height: 9.5625rem;
+  flex-shrink: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.membership h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.membership p {
+  width: 13.8125rem; 
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 185.714% */
+}
+
+.membership_container button {
+  border-radius: 1.3rem;
+  border: none;
+  background: #C271FF;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 10.125rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+  margin-bottom: 0.5rem;
+}
+
+.FAQ_container {
+  width: 1540px;
+  height: 44.1875rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 4.63rem;
+  margin-top: 5rem;
+  margin-bottom: 5.25rem;
+}
+
+.FAQ_container h1 {
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.Q1ANDQ2 {
+  width: 57.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Q3ANDQ4 {
+  width: 57.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Q1, .Q2, .Q3, .Q4 {
+  display: flex;
+  width: 21.875rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+
+.Q1 h5, .Q2 h5, .Q3 h5, .Q4 h5 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.Q1 p, .Q2 p, .Q3 p, .Q4 p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 171.429% */
+}
+
+.footer_box {
+  width: 1540px;
+  height: 15.5625rem;
+  flex-shrink: 0;
+  display: flex;
+  background: #071629;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_row {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 50rem;
+}
+
+.copyright {
+  margin-top: 3rem;
+}
+
+.copyright p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3517;
 }
